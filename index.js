@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Foydalanuvchilarning IP-manzilini cheklash
-const allowedIP = '213.230.97.152'; // Ruxsat berilgan IP-manzil
+const allowedIP = '89.236.218.41'; // Ruxsat berilgan IP-manzil
 
 // IP manzilni tekshiruvchi middleware
 const checkIP = (req, res, next) => {
